@@ -9,7 +9,7 @@ namespace Vic.SuperMarket.Models
     public class ShopCart
     {
         public int Id { get; set; }
-        List<StockItem> ItemList { get; set; }
+        List<Item> ItemList { get; set; }
 
         public void AddItem(int ProductId, int count)
         {

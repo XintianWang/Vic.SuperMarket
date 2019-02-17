@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Vic.SuperMarket.Models
 {
-    public class StockItem
+    public class ItemStock
     {
-        public int ProductId { get; set; }
-        public int ProductCount { get; set; }
+        public List<Item> Items { get; set; }
+
     }
 }

@@ -9,7 +9,19 @@ namespace Vic.SuperMarket.Services
 {
     public class Customer
     {
-        public int MyShopCartId { get; set; }
+        public ShopCart MyShopCartId { get; set; }
+        public Market SuperMarket { get; set; }
+
+        public void VisitMarket(Market market)
+        {
+            this.SuperMarket = market;
+            this.MyShopCartId = new ShopCart();
+        }
+
+        public List<Product> ViewProducts(bool isInStock)
+        {
+            return this.SuperMarket
+        }
 
         public void PickupProduct(int ProductId, int count)
         {
@@ -25,7 +37,7 @@ namespace Vic.SuperMarket.Services
 
         }
 
-        public void Checkout(int CashierId)
+        public void CheckoutRequest(int CashierId)
         {
 
         }

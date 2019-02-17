@@ -9,7 +9,7 @@ namespace Vic.SuperMarket.Models
     public class Receipt
     {
         public int Id { get; set; }
-        public List<StockItem> ItemList { get; set; }
+        public List<Item> ItemList { get; set; }
         public decimal TotalPrice { get; set; }
         public DateTime TransactionTime { get; set; }
         public int CashierId { get; set; }

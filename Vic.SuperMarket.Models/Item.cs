@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Vic.SuperMarket.Models
+{
+    public class Item
+    {
+        public int ProductId { get; set; }
+        public int ProductCount { get; set; }
+    }
+}
