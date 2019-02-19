@@ -1,0 +1,51 @@
+[
+  {
+    "Category": 1,
+    "Description": "Banana",
+    "Id": 1,
+    "Name": "Banana",
+    "Price": 1.67
+  },
+  {
+    "Category": 1,
+    "Description": "Apple",
+    "Id": 2,
+    "Name": "Apple",
+    "Price": 1.99
+  },
+  {
+    "Category": 2,
+    "Description": "Pork",
+    "Id": 3,
+    "Name": "Pork",
+    "Price": 5.3
+  },
+  {
+    "Category": 5,
+    "Description": "Rice",
+    "Id": 4,
+    "Name": "Rice",
+    "Price": 3.7
+  },
+  {
+    "Category": 3,
+    "Description": "cabbage",
+    "Id": 5,
+    "Name": "cabbage",
+    "Price": 1.6
+  },
+  {
+    "Category": 1,
+    "Description": "Orange",
+    "Id": 6,
+    "Name": "Orange",
+    "Price": 2.6
+  },
+  {
+    "Category": 3,
+    "Description": "Celery",
+    "Id": 7,
+    "Name": "Celery",
+    "Price": 1.99
+  }
+]
