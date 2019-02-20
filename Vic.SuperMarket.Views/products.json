@@ -1,5 +1,12 @@
 [
   {
+    "Category": 2,
+    "Description": "Beef",
+    "Id": 0,
+    "Name": "Beef",
+    "Price": 5.67
+  },
+  {
     "Category": 1,
     "Description": "Banana",
     "Id": 1,
